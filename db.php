@@ -17,10 +17,10 @@ class Database
      */
     public function getConn()
     {
-        $db_host = "localhost";
-        $db_name = "uploader";
-        $db_user = "root";
-        $db_pass = "";
+        $db_host = "host";
+        $db_name = "dbname";
+        $db_user = "user";
+        $db_pass = "password";
 
         $dsn = 'mysql:host=' . $db_host . ';dbname=' . $db_name . ';charset=utf8';
 
